@@ -1,11 +1,8 @@
+.idea/
+.DS_Store
 *.pyc
 
-.installed.cfg
-bin
-develop-eggs
+log/
 
-*.egg-info
-
-tmp
-build
-dist
+# Config file
+conf/config.ini
