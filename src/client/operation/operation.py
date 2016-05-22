@@ -1,8 +1,10 @@
 import requests
 
+from utils.sessionmanager import SessionManager
+
 
 class Operation:
-    def __init__(self, endpoint: str, session_manager):
+    def __init__(self, endpoint: str, session_manager: SessionManager):
         self._endpoint = endpoint
         self._session_manager = session_manager
 
