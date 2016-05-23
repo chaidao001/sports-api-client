@@ -2,7 +2,7 @@ from datetime import datetime
 
 from client.domain.enums import ExecutionReportStatus, ExecutionReportErrorCode, InstructionReportStatus, \
     InstructionReportErrorCode
-from client.domain.request.bettingrequests import PlaceInstruction, CancelInstruction, UpdateInstruction
+from client.domain.request.bettingrequest import PlaceInstruction, CancelInstruction, UpdateInstruction
 
 
 class ExecutionReport:
