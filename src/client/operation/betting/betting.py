@@ -16,14 +16,14 @@ class Betting(Operation):
     def list_cleared_orders(self):
         pass
 
-    def place_orders(self):
+    def place_orders(self, market_id: str, instructions: list(), customer_ref: str = None):
         pass
 
-    def cancel_orders(self):
+    def cancel_orders(self, market_id: str = None, instruction: list() = None, customer_ref: str = None):
         pass
 
-    def replace_orders(self):
+    def replace_orders(self, market_id: str, instructions: list(), customer_ref: str = None):
         pass
 
-    def update_orders(self):
+    def update_orders(self, market_id: str, instructions: list(), customer_ref: str = None):
         pass
