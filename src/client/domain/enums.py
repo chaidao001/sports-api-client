@@ -33,6 +33,10 @@ class PersistenceType(Enum):
     LAPSE, PERSIST, MARKET_ON_CLOSE = range(3)
 
 
+class OrderStatus(Enum):
+    EXECUTION_COMPLETE, EXECUTABLE = range(2)
+
+
 class ExecutionReportStatus(Enum):
     SUCCESS, FAILURE, PROCESSED_WITH_ERRORS, TIMEOUT = range(4)
 
