@@ -17,6 +17,14 @@ class OrderType(Enum):
     LIMIT, LIMIT_ON_CLOSE, MARKET_ON_CLOSE = range(3)
 
 
+class GroupBy(Enum):
+    EVENT_TYPE, EVENT, MARKET, SIDE, BET = range(5)
+
+
+class BetStatus(Enum):
+    SETTLED, VOIDED, LAPSED, CANCELLED = range(4)
+
+
 class Side(Enum):
     BACK, LAY = range(2)
 
